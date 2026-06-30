@@ -157,10 +157,9 @@ Each page answers 1–2 business questions and feeds into the next.
 olist-ecommerce-dashboard/
 │
 ├── README.md
-├── sql/
-│   ├── schema/          # Star schema view definitions
-│   ├── analysis/        # Business question queries
-│   └── views/           # Supporting pre-aggregated views
+├── schema/          # Star schema table definitions
+├── views/           # Saved PostgreSQL views (pre-aggregated logic)
+├── analysis/        # One-off business question queries
 │
 ├── powerbi/
 │   └── olist_dashboard.pbix
