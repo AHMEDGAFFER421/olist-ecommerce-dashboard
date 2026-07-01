@@ -1,4 +1,4 @@
-CREATE VIEW analysis_on_products
+CREATE VIEW analysis_on_products AS
 SELECT 
 	AVG(f.review_score) AS avg_score,
 	AVG(delivery_days)  AS avg_days,
