@@ -1,4 +1,4 @@
-CREATE VIEW dim_data AS
+CREATE VIEW dim_date AS
 
 SELECT
     date::date AS date,
