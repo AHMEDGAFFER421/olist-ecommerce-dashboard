@@ -1,4 +1,4 @@
-CREATE VIEW state_query AS 
+CREATE VIEW retention_by_state AS 
 SELECT 
     c.state,
     COUNT(DISTINCT c.customer_id)                                    AS total_customers,
