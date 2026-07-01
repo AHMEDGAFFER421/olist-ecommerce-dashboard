@@ -16,11 +16,24 @@ The analysis surfaces four connected root causes — logistics gaps in Northeast
 
 | # | Finding | Metric |
 |---|---------|--------|
-| 1 | Revenue peaked mid-2018 and began stagnating | Sales trend flattens Q3–Q4 2018 |
-| 2 | Northeast Brazil has both the worst delivery times and lowest retention | 8.4–10.2% retention vs 12.5%+ in Southeast |
-| 3 | Two distinct seller failure types: high-volume/low-score vs low-volume/inactive | Identified via seller performance clustering |
-| 4 | Heavier products correlate with late delivery and lower review scores | Freight weight drives delivery delay |
-| 5 | 88% of customers never place a second order | Platform is acquisition-dependent, not retention-driven |
+| 1 | Revenue peaked mid-2018 then stalled — growth was almost entirely driven by 2017 expansion | Sales trend flattens Q3–Q4 2018, YoY growth collapses |
+| 2 | Northeast Brazil gets late deliveries AND has the lowest customer retention | AL and MA face 23% late rate and 24-day avg delivery; retention 8.4–8.7% vs 12.5%+ in Southeast |
+| 3 | The Northeast delivery problem is an infrastructure issue, not a seller quality issue | Seller late rate map shows no regional pattern — Northeast sellers perform the same as everyone else; the delay happens in transit |
+| 4 | Two distinct seller failure types: high late rate (logistics failures) vs low review score (product quality failures) | Top late-rate sellers hit 56%; some sellers deliver on time but still score 1.8 avg review |
+| 5 | Heavy and high-freight orders are a logistics liability | Office furniture averages 20-day delivery; high-freight orders have nearly double the late rate of low-freight |
+| 6 | 88% of customers never place a second order | Platform is burning acquisition budget without building loyalty; only 12% retention |
+
+---
+
+## Recommendations
+
+| Finding | Recommendation |
+|---------|---------------|
+| Revenue stall | Conduct root cause analysis on the Q4 2018 drop before increasing acquisition spend — determine if it's seasonal, category-specific, or a broader market shift |
+| Northeast logistics | Partner with a regional carrier or establish a micro-fulfillment hub in Northeast Brazil, prioritizing AL, MA, and CE |
+| Seller failures | Implement a Seller Scorecard system — auto-flag any seller exceeding 15% late rate or falling below 3.5 avg review; bottom-quadrant sellers face probation or removal |
+| Heavy products | Create a separate logistics SLA for bulky/high-freight categories; office furniture specifically needs a dedicated delivery partner |
+| Retention crisis | Launch a post-purchase retention program — a time-limited discount (e.g. 10% off within 30 days) sent after first delivery; moving retention from 12% to 18% would significantly reduce customer acquisition cost |
 
 ---
 
